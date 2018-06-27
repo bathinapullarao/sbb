@@ -39,7 +39,7 @@ stage('Build')
             echo "The sonar server could not be reached ${error}"
             }
         }
-   stage("Prune_deleteUnusedImages")
+/*   stage("Prune_deleteUnusedImages")
 	{
         imagePrune(CONTAINER_NAME)
         }
@@ -205,3 +205,4 @@ def dipProd(containerName, tag, dockerHubUser, httpPort){
     echo "Application started on port: ${httpPort} (http)"
 }
 
+*/

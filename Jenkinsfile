@@ -3,8 +3,9 @@ def CONTAINER_TAG="latest"
 def DOCKER_HUB_USER="bathinapullarao"
 def HTTP_PORT="8087"
 
-node node1 
+node  
 {
+	node1
 	stage('declareEnvVariables')
 	{
         def dockerHome = tool 'myDocker'

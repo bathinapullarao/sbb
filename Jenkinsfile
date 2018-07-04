@@ -5,7 +5,6 @@ def HTTP_PORT="8087"
 
 node  
 {
-	node1
 	stage('declareEnvVariables')
 	{
         def dockerHome = tool 'myDocker'
